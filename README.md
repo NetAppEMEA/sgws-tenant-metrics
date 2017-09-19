@@ -3,6 +3,14 @@ A small tool for collecting tenant related metrics in StorageGRID Webscale.
 
 ## Usage
 
+Place `audit.log` in same direction, then run `python parse.py`.
+
+## Known issues
+
+* Anonymous access traffic not properly logged against owning tenant
+* Need to read multiple files based on a pattern
+* Include timestamps in results (not sure if needed)
+
 ## Notice
 
 ```
