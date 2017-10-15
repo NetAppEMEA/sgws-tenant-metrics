@@ -3,7 +3,7 @@ A small tool for collecting tenant related metrics in StorageGRID Webscale.
 
 ## Usage
 
-Place `audit.log` in same direction, then run `python parse.py`.
+Place `audit.log` in same directory, then run `python parse.py`.
 
 ## Known issues
 
